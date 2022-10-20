@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="36.801025px" height="36.801025px" viewBox="0 0 36.801025 36.801025" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.84705883 0 0 0 0 0.84705883 0 0 0 0 0.84705883 0 0 0 1 0" color-interpolation-filters="sRGB" />
+    </filter>
+  </defs>
+  <g id="Play" filter="url(#filter_1)">
+    <path d="M16.73 27.805C16.23 28.305 15.477 28.457 14.824 28.188C14.168 27.918 13.742 27.281 13.742 26.57L13.742 10.227C13.742 9.52 14.168 8.879 14.824 8.609C15.477 8.34 16.23 8.492 16.73 8.996L24.457 16.758C25.359 17.668 25.359 19.133 24.457 20.039L16.73 27.805Z" id="Fill-1" fill="#040404" fill-rule="evenodd" stroke="none" />
+    <path d="M18.398 4.801C25.898 4.801 32 10.902 32 18.398C32 25.898 25.898 32 18.398 32C10.902 32 4.801 25.898 4.801 18.398C4.801 10.902 10.902 4.801 18.398 4.801L18.398 4.801ZM18.398 0C8.238 0 0 8.238 0 18.398C0 28.563 8.238 36.801 18.398 36.801C28.562 36.801 36.801 28.563 36.801 18.398C36.801 8.238 28.562 0 18.398 0Z" id="Fill-2" fill="#040404" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
