@@ -1,0 +1,27 @@
+<div class="flex h-96 -ml-64 justify-center">
+  <div class="relative">
+    <span
+      class="flex absolute justify-center items-center w-96 h-96 rounded-full mt-2 bg-black overflow-hidden"
+    >
+    <span
+      class="flex absolute justify-center items-center h-full w-full bg-cover opacity-70"
+      style="background-image: url('/jj-ying-8bghKxNU1j0-unsplash.jpg');"
+    >
+    </span>
+    </span>
+    <span
+      class="flex absolute -left-20 justify-center items-center w-40 h-40 rounded-full mt-2 bg-neutral-800"
+    ></span>
+    <p class="absolute block w-48 mt-48 mx-20 text-md overflow-hidden">
+      <au-slot></au-slot>
+    </p>
+    <div class="h-64 w-80 mt-16 flex font-bold flex-col absolute">
+      <span class="text-3xl w-8 absolute -left-8"
+        ><au-slot name="count"></au-slot
+      ></span>
+      <h3 class="text-3xl w-40 block">
+        <au-slot name="title"></au-slot>
+      </h3>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<import from="./container.ts"></import>
+
+<container class="bg-neutral-800 text-neutral-400">
+  <div class="px-8 overflow-hidden">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div class="p-16">
+        <au-slot name="left"></au-slot>
+      </div>
+      <div class="-mt-9">
+        <au-slot name="right"></au-slot>
+      </div>
+    </div>
+  </div>
+</container>

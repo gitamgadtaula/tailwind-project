@@ -1,0 +1,155 @@
+<import from="../components/timeline.html"></import>
+<import from="../components/timeline-item.ts"></import>
+<import from="../components/clients.ts"></import>
+<import from="../components/articles.ts"></import>
+<import from="../components/case-studies.ts"></import>
+<import from="../components/container.ts"></import>
+<import from="../components/hero.html"></import>
+
+
+<hero></hero>
+
+<timeline>
+  <div au-slot="left">
+    <h2 class="text-5xl text-white font-black">
+      Reaching an audience takes insight
+    </h2>
+    <p class="p-8 text-neutral-300">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut odio
+      dolor. Praesent dignissim, nibh a accumsan efficitur, quam lacus ultricies
+      dui, eget pretium ligula nisi sit amet ligula.
+    </p>
+  </div>
+  <div au-slot="right">
+    <timeline-item right="true">
+      <div au-slot="title">Strategy</div>
+      <p>
+        Lorem lorem dolor sit amet, consectetur adipiscing elit. Donec ut odio
+        dolor. Praesent dignissim, nibh.
+      </p>
+      <p class="mt-4"><a href="#" class="text-neutral-200">More</a></p>
+    </timeline-item>
+    <timeline-item>
+      <div au-slot="title">ERP</div>
+      <p>
+        Donec ut odio dolor. Praesent dignissim, nibh a accumsan efficitur, quam
+        lacus.
+      </p>
+      <p class="mt-4"><a href="#" class="text-neutral-200">More</a></p>
+    </timeline-item>
+    <timeline-item right="true">
+      <div au-slot="title">Movie</div>
+      <p>
+        Praesent dignissim, nibh a accumsan efficitur, quam lacus ultricies dui,
+        eget pretium ligula nisi sit amet ligula.
+      </p>
+      <p class="mt-4"><a href="#" class="text-neutral-200">More</a></p>
+    </timeline-item>
+  </div>
+</timeline>
+
+<articles> </articles>
+
+<case-studies> </case-studies>
+
+<div class="bg-white">
+  <div class="container mx-auto px-8 h-96 flex justify-center content-center">
+    <div class="uppercase text-2xl font-black text-white">
+      We inspire audiences
+    </div>
+  </div>
+</div>
+<clients></clients>
+
+<div class="bg-neutral-800 text-neutral-400">
+  <div class="container mx-auto px-8 py-16">
+    <img src="/marteco-image.png" class="h-3 invert mb-6" />
+    <h3 class="uppercase text-3xl font-extrabold text-neutral-200">Contact</h3>
+    <div class="ml-96">
+      <div class="grid grid-cols-2 gap-16">
+        <div>
+          <label
+            >First name
+            <input
+              type="text"
+              class="flex w-full bg-neutral-800 text-neutral-300 p-2 border-b-2 border-neutral-600 focus:border-neutral-400 outline-none placeholder:text-neutral-600"
+              placeholder="John"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            >Last name
+            <input
+              type="text"
+              class="flex w-full bg-neutral-800 text-neutral-300 p-2 border-b-2 border-neutral-600 focus:border-neutral-400 outline-none placeholder:text-neutral-600"
+              placeholder="Doe"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            >Email
+            <input
+              type="email"
+              class="flex w-full bg-neutral-800 text-neutral-300 p-2 border-b-2 border-neutral-600 focus:border-neutral-400 outline-none placeholder:text-neutral-600"
+              placeholder="you@know.com"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            >Phone number
+            <input
+              type="tel"
+              class="flex w-full bg-neutral-800 text-neutral-300 p-2 border-b-2 border-neutral-600 focus:border-neutral-400 outline-none placeholder:text-neutral-600"
+              placeholder="555-99887766"
+            />
+          </label>
+        </div>
+      </div>
+      <div class="pt-16">
+        <label
+          >Message
+          <input
+            type="text"
+            class="flex w-full bg-neutral-800 text-neutral-300 p-2 border-b-2 border-neutral-600 focus:border-neutral-400 outline-none placeholder:text-neutral-600"
+            placeholder="Lorem ipsum dolor sit amet.."
+          />
+        </label>
+      </div>
+      <div class="pt-16">
+        <button
+          type="submit"
+          class="flex w-full bg-neutral-800 text-neutral-300 font-bold"
+        >
+          Send &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<container class="bg-white">
+  <div class="grid grid-cols-2 grid-flow-col gap-4 py-48 justify-items-center">
+    <div>
+      <div class="block w-96 h-48" style="clip-path: url(#clippath)">
+        <img class="object-fill" src="/zoe-graham-HeQswh6F3Uw-unsplash.jpg" />
+      </div>
+      <svg class="w-0 h-0">
+        <clipPath id="clippath" clipPathUnits="objectBoundingBox">
+          <path
+            d="M0.823,0.298 L1,1 H0.77 C0.708,1,0.651,0.951,0.623,0.84 L0.529,0.456 C0.511,0.391,0.499,0.354,0.497,0.363 C0.493,0.375,0.489,0.387,0.485,0.399 C0.479,0.422,0.473,0.446,0.473,0.446 L0.378,0.84 C0.35,0.95,0.292,1,0.229,1 H0 L0.178,0.298 C0.198,0.217,0.228,0.145,0.266,0.094 C0.323,0.014,0.397,0.002,0.462,0.06 C0.477,0.075,0.492,0.099,0.504,0.121 C0.51,0.11,0.516,0.1,0.523,0.09 C0.581,0.006,0.658,0,0.72,0.073 C0.765,0.127,0.8,0.205,0.823,0.298 L0.823,0.298"
+          ></path>
+        </clipPath>
+      </svg>
+    </div>
+    <div>
+      <span
+        class="flex absolut2e justify-center items-center w-64 h-64 rounded-full bg-neutral-800 text-white overflow-hidden"
+      >
+        We inspire audiences
+      </span>
+    </div>
+  </div>
+</container>
