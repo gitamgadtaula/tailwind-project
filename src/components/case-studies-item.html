@@ -1,25 +1,25 @@
-<div class="flex h-96 -ml-64 justify-center">
+<div class="flex justify-center scale-[75%] -translate-x-28 sm:-translate-x-40 sm:scale-100 h-96">
   <div class="relative">
     <span
-      class="flex absolute justify-center items-center w-96 h-96 rounded-full mt-2 bg-black overflow-hidden"
+      class="absolute flex items-center justify-center mt-2 overflow-hidden bg-black rounded-full w-96 h-96"
     >
     <span
-      class="flex absolute justify-center items-center h-full w-full bg-cover opacity-70"
+      class="absolute flex items-center justify-center w-full h-full bg-cover opacity-70"
       style="background-image: url('/jj-ying-8bghKxNU1j0-unsplash.jpg');"
     >
     </span>
     </span>
     <span
-      class="flex absolute -left-20 justify-center items-center w-40 h-40 rounded-full mt-2 bg-neutral-800"
+      class="absolute flex items-center justify-center w-40 h-40 mt-2 rounded-full -left-20 bg-neutral-800"
     ></span>
-    <p class="absolute block w-48 mt-48 mx-20 text-md overflow-hidden">
+    <p class="absolute block mx-20 mt-48 overflow-hidden text-lg -translate-y-3 w-52 sm:text-md">
       <au-slot></au-slot>
     </p>
-    <div class="h-64 w-80 mt-16 flex font-bold flex-col absolute">
-      <span class="text-3xl w-8 absolute -left-8"
+    <div class="absolute flex flex-col h-64 mt-16 font-bold w-80">
+      <span class="absolute w-8 text-3xl -left-8"
         ><au-slot name="count"></au-slot
       ></span>
-      <h3 class="text-3xl w-40 block">
+      <h3 class="block w-40 text-3xl font-extrabold">
         <au-slot name="title"></au-slot>
       </h3>
     </div>

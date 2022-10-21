@@ -1,14 +1,14 @@
-<div class="grid grid-cols-2 text-sm gap-4 pb-12">
+<div class="grid grid-cols-2 gap-4 pb-12 text-sm">
   <div class.bind="right ? 'text-right' : 'text-left order-2'">
     <div class.bind="right ? 'flex flex-row-reverse pb-6' : 'flex pb-6'">
       <img src="/marteco-image.png" class="h-3 invert" />
     </div>
-    <h3 class="text-3xl uppercase leading-5 font-extrabold text-neutral-300">
+    <h3 class="text-2xl font-extrabold leading-5 uppercase sm:text-3xl text-neutral-300 ">
       <au-slot name="title">Default Title</au-slot>
     </h3>
   </div>
   <div
-    class.bind="right ? 'leading-relaxed pt-1 pr-16' : 'leading-relaxed text-right pt-1 pl-16'"
+    class.bind="right ? 'leading-relaxed pt-1 pr-8 sm:pr-16' : 'leading-relaxed text-right pt-1 pl-8 sm:pl-16'"
   >
     <au-slot>Default Content</au-slot>
   </div>
