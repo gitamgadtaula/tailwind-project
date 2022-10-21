@@ -9,7 +9,9 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@aurelia/router": "^2.0.0-alpha.40",
-    "aurelia": "latest"
+    "aurelia": "latest",
+    "aurelia-materialize-bridge": "^1.6.4",
+    "locomotive-scroll": "^4.1.4"
   },
   "devDependencies": {
     "@aurelia/testing": "latest",
